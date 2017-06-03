@@ -1,6 +1,14 @@
 <?php
 
-	//Created by - David Watts. (C)Warhead-Designz 2016 All Rights Reserved.
+	/*
+		You will have to make some adjustments. This is barebones.
+		Mainly with the Scene stuff you will have to add and such.
+		
+		The reason I didn't add it into the code is you may or may
+		not want to use it. (So right now it will only load your game DATA).
+		It will not understand scenes and such. You will have to add this
+		if you want to do scene based data.
+	*/
 
 
 	$servername = "localhost";	// < This could be different if you have a webhost.

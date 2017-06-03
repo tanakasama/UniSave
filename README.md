@@ -14,3 +14,10 @@ Now inside SaveParser go to Prefabs drop down and add every Prefab that you will
 
 That's pretty much it.
 Keep in mind (this Initial) version will only work properly for PREFABS. It will work for Local (Non-Instantiated) objects, but it will still load the object again.
+
+
+Initial Controls -
+Spacebar - Saves.
+L - loads the file.
+
+Be sure to go into SaveParser and LoadGame scripts and change the Save/Load File to your desire (Saves to Application.dataPath).

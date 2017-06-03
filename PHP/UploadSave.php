@@ -1,6 +1,13 @@
 <?php
 
-	//Created by - David Watts. (C)Warhead-Designz 2016 All Rights Reserved.
+	/*
+		You will have to make some adjustments. This is barebones.
+		Mainly with the Scene stuff you will have to add and such.
+		I went ahead and made the post variable for you though.
+		
+		The reason I didn't add it into the code is you may or may
+		not want to use it.
+	*/
 
 
 	$servername = "localhost";	// < This could be different if you have a webhost.
@@ -19,6 +26,7 @@
 	
 	$username = ($_POST['usernamePost']);
 	$password = ($_POST['passwordPost']);
+	$scene = ($_POST['scenePost');// If we want to save a scene to your database.
 	$save = ($_POST['savePost']); // This is where we store our save data.
 	$ts = gmdate("Y-m-d\TH:i:s\Z");
 	
